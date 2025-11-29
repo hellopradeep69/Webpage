@@ -1,0 +1,56 @@
+* {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    text-align: center;
+    color: darkgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+pre {
+    text-align: center;
+    color: yellowgreen;
+}
+
+#me {
+    color: purple;
+}
+
+#intro {
+    color: darkolivegreen;
+    text-align: center;
+}
+
+#sep {
+    width: 100%;
+    color: darkolivegreen;
+}
+
+#url {
+    text-align: center;
+}
+
+a {
+    color: darkred;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    color: indianred;
+    text-align: center;
+}
+
+#mail {
+    text-align: center;
+    color: rebeccapurple;
+}
