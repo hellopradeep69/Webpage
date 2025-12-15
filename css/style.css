@@ -7,10 +7,39 @@ body {
     color: wheat;
 }
 
-.top {
-    text-align: center;
+nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #1a1c23;
     font-size: 15px;
-    margin: 34px;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav .logo {
+    font-size: 20px;
+    padding: 20px;
+    /* font-weight: bold; */
 }
 
 a {
@@ -42,4 +71,9 @@ section {
 footer {
     text-align: center;
     margin: 48px;
+}
+
+.more {
+    margin: 340px;
+    text-align: center;
 }
