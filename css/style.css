@@ -1,56 +1,45 @@
-* {
-    background-color: black;
+html {
+    background-color: #080A0D;
 }
 
-h1 {
+body {
+    font-family: monospace;
+    color: wheat;
+}
+
+.top {
     text-align: center;
-    color: blueviolet;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-h3 {
-    text-align: center;
-    color: darkgreen;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-pre {
-    text-align: center;
-    color: yellowgreen;
-}
-
-#me {
-    color: purple;
-}
-
-#intro {
-    color: darkolivegreen;
-    text-align: center;
-}
-
-#sep {
-    width: 100%;
-    color: darkolivegreen;
-}
-
-#url {
-    text-align: center;
+    font-size: 15px;
+    margin: 34px;
 }
 
 a {
-    color: darkred;
-    cursor: pointer;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
+    color: green;
 }
 
 a:hover {
-    color: indianred;
-    text-align: center;
+    color: forestgreen;
 }
 
-#mail {
+header {
     text-align: center;
-    color: rebeccapurple;
+    margin-top: 10%;
+}
+
+.cards {
+    background-color: #0B0D11;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+section {
+    /* margin: 80px; */
+    margin: 110px;
+}
+
+footer {
+    text-align: center;
+    margin: 48px;
 }
