@@ -22,8 +22,12 @@ body.dark nav {
     background-color: antiquewhite;
 }
 
-body.dark a {
+body.dark a:hover {
     color: #7aa2f7;
+}
+
+body.dark a {
+    color: black;
 }
 
 body.dark button {
