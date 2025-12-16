@@ -1,27 +1,68 @@
 html {
-    background-color: #080A0D;
+    /* background-color: #080A0D; */
 }
 
 body {
+    background-color: #080A0D;
     font-family: monospace;
     color: wheat;
 }
 
+/* dark or light */
+body.dark {
+    background-color: wheat;
+    color: black;
+}
+
+body.dark .cards {
+    background-color: antiquewhite;
+}
+
+body.dark nav {
+    background-color: antiquewhite;
+}
+
+body.dark a {
+    color: #7aa2f7;
+}
+
+body.dark button {
+    background-color: antiquewhite;
+    border: none;
+}
+
+button {
+    background-color: #1a1c23;
+    border: none;
+    text-shadow: wheat;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+
 nav {
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
     align-items: center;
-    position: fixed;
-    width: 100%;
+    position: sticky;
     top: 0;
+    padding: 12px 20px;
+    z-index: 100;
     background-color: #1a1c23;
     font-size: 15px;
 }
 
+nav .logo {
+    font-size: 18px;
+}
+
 nav ul {
-    list-style-type: none;
-    overflow: hidden;
+    display: flex;
+    list-style: none;
+    gap: 15px;
 }
 
 nav ul li {
@@ -29,18 +70,11 @@ nav ul li {
 }
 
 nav ul li a {
-    display: block;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    font-size: 14px;
 }
 
-nav .logo {
-    font-size: 20px;
-    padding: 20px;
-    /* font-weight: bold; */
-}
 
 a {
     color: green;
@@ -52,28 +86,41 @@ a:hover {
 
 header {
     text-align: center;
+    /* padding: 80px 20px 40px; */
+    padding: 20px;
     margin-top: 10%;
+}
+
+header h1 {
+    font-size: 22px;
+}
+
+header p {
+    font-size: 14px;
+    margin-top: 10px;
 }
 
 .cards {
     background-color: #0B0D11;
-    padding: 20px;
-    font-size: 15px;
+    padding: 16px;
+    font-size: 14px;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 section {
     /* margin: 80px; */
-    margin: 110px;
+    margin: 20px;
 }
 
 footer {
     text-align: center;
-    margin: 48px;
+    padding: 20px;
+    font-size: 12px;
+    opacity: 0.5;
 }
 
 .more {
-    margin: 340px;
+    padding: 20%;
     text-align: center;
 }
