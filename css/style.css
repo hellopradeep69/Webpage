@@ -45,8 +45,6 @@ button:hover {
     cursor: pointer;
 }
 
-
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -88,7 +86,7 @@ a:hover {
     color: forestgreen;
 }
 
-header {
+header#hero {
     text-align: center;
     /* padding: 80px 20px 40px; */
     padding: 20px;
@@ -124,7 +122,26 @@ footer {
     opacity: 0.5;
 }
 
+/* More */
 .more {
     padding: 20%;
     text-align: center;
+}
+
+.moreheader {
+    color: red;
+}
+
+#pic {
+    float: right;
+    margin: 30px;
+}
+
+#pic:hover {
+    cursor: pointer;
+}
+
+
+#aboutme {
+    font-size: 20px;
 }
