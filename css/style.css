@@ -61,6 +61,11 @@ nav .logo {
     font-size: 18px;
 }
 
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
 nav ul {
     display: flex;
     list-style: none;
