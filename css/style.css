@@ -130,7 +130,12 @@ footer {
 }
 
 #moreheader {
-    padding: 120px;
+    padding: 100px;
+}
+
+#moreheader h2 {
+    text-align: center;
+    justify-content: center;
 }
 
 #pic {
