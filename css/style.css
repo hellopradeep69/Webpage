@@ -87,10 +87,11 @@ a:hover {
 }
 
 header#hero {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    /* padding: 80px 20px 40px; */
-    padding: 20px;
-    margin-top: 10%;
 }
 
 header h1 {
@@ -128,8 +129,8 @@ footer {
     text-align: center;
 }
 
-.moreheader {
-    color: red;
+#moreheader {
+    padding: 120px;
 }
 
 #pic {
