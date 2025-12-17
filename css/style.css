@@ -51,10 +51,9 @@ nav {
     align-items: center;
     position: sticky;
     top: 0;
-    padding: 12px 20px;
-    z-index: 100;
+    padding-left: 12px;
+    padding-right: 12px;
     background-color: #1a1c23;
-    font-size: 15px;
 }
 
 nav .logo {
@@ -62,7 +61,7 @@ nav .logo {
 }
 
 nav a {
-    color: white;
+    color: wheat;
     text-decoration: none;
 }
 
