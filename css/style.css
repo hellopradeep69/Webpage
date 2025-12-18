@@ -8,43 +8,6 @@ body {
     color: wheat;
 }
 
-/* dark or light */
-body.dark {
-    background-color: wheat;
-    color: black;
-}
-
-body.dark .cards {
-    background-color: antiquewhite;
-}
-
-body.dark nav {
-    background-color: antiquewhite;
-}
-
-body.dark a:hover {
-    color: #7aa2f7;
-}
-
-body.dark a {
-    color: black;
-}
-
-body.dark button {
-    background-color: antiquewhite;
-    border: none;
-}
-
-button {
-    background-color: #1a1c23;
-    border: none;
-    text-shadow: wheat;
-}
-
-button:hover {
-    cursor: pointer;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -76,7 +39,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: wheat;
     text-decoration: none;
     font-size: 14px;
 }
