@@ -1,0 +1,157 @@
+html {
+    /* background-color: #080A0D; */
+}
+
+body {
+    background-color: #080A0D;
+    font-family: monospace;
+    color: wheat;
+}
+
+/* dark or light */
+body.dark {
+    background-color: wheat;
+    color: black;
+}
+
+body.dark .cards {
+    background-color: antiquewhite;
+}
+
+body.dark nav {
+    background-color: antiquewhite;
+}
+
+body.dark a:hover {
+    color: #7aa2f7;
+}
+
+body.dark a {
+    color: black;
+}
+
+body.dark button {
+    background-color: antiquewhite;
+    border: none;
+}
+
+button {
+    background-color: #1a1c23;
+    border: none;
+    text-shadow: wheat;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: #1a1c23;
+}
+
+nav .logo {
+    font-size: 18px;
+}
+
+nav a {
+    color: wheat;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+a {
+    color: green;
+}
+
+a:hover {
+    color: forestgreen;
+}
+
+header#hero {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 22px;
+}
+
+header p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.cards {
+    background-color: #0B0D11;
+    padding: 16px;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+
+section {
+    /* margin: 80px; */
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+/* More */
+.more {
+    padding: 20%;
+    text-align: center;
+}
+
+#moreheader {
+    padding: 100px;
+}
+
+#moreheader h2 {
+    text-align: center;
+    justify-content: center;
+}
+
+#pic {
+    float: right;
+    margin: 30px;
+}
+
+#pic:hover {
+    cursor: pointer;
+}
+
+
+#aboutme {
+    font-size: 20px;
+}
