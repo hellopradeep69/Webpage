@@ -1,5 +1,5 @@
 html {
-    /* background-color: #080A0D; */
+    background-color: #080A0D;
 }
 
 body {
@@ -68,6 +68,10 @@ header h1 {
 header p {
     font-size: 14px;
     margin-top: 10px;
+}
+
+.container {
+    margin: 5%;
 }
 
 .cards {
